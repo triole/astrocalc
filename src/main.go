@@ -14,13 +14,10 @@ func main() {
 
 	geo := readTomlFile(geoConf)
 	now := time.Now()
-
 	coords := geo[*argsCity]
-	fmt.Printf("%+v\n", coords)
 
-	t := calc(
-		now, coords[0], coords[1],
-	)
+	t := calc(now, coords[0], coords[1])
+	t.Location["name"] = *argsCity
 
 	fmt.Printf("%s\n", toTomlString(t))
 }
