@@ -54,3 +54,9 @@ tasks:
 
     deploy:
         cp -rpf build/* ${HOME}/tools/arch/mybins/
+
+    mod:
+        cmds:
+            - cmd: rm go.mod
+            - cmd: go mod init {{.APP_NAME}}
+            - cmd: go mod tidy

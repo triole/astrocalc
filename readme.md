@@ -2,6 +2,8 @@
 
 <!--- mdtoc: toc begin -->
 
-<!--- mdtoc: toc end -->
+1.	[Synopsis](#synopsis)<!--- mdtoc: toc end -->
 
-A command line tool to do simple astro calculations.
+## Synopsis
+
+A command line tool to do simple astro calculations. Results are printed in a flat toml structure so that they can be parsed easily with [stoml](https://github.com/freshautomations/stoml).
