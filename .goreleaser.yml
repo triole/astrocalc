@@ -2,6 +2,8 @@ before:
   hooks:
     - mkdir -p builddir
     - go mod download
+    - ln -s ./src/capitals /opt/hostedtoolcache/go/1.16.3/x64/src/capitals
+    - ln -s ./src/location /opt/hostedtoolcache/go/1.16.3/x64/src/location
 
 builds:
 - env:
