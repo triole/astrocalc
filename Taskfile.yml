@@ -1,4 +1,4 @@
-version: '2'
+version: '3'
 
 vars:
     TARGET_FOLDER: build
@@ -24,39 +24,35 @@ vars:
     GIT_COMMIT_HASH:
         sh: git rev-parse HEAD
 
-    GOFILES:
-        sh: >-
-            find . -type f -regex ".*\.go$" \
-                | grep -v "_test.go"  \
-                | tr '\n' ' '
-
 tasks:
-    run:
-        go run {{.GOFILES}}
-
     default:
+        desc: default task, test and build
         cmds:
+            - task: test
             - task: build
 
     build:
+        desc: build using simple 'go build'
         cmds:
+            - cmd: mkdir -p $(pwd)/{{.TARGET_FOLDER}}
             - cmd: >-
-                bob -c
-                -f '_subversion: {{.GIT_COMMIT_NO}}, Author: {{.AUTHOR}},
-                Build date: {{.DATE}}, Git hash: {{.GIT_COMMIT_HASH}}'
-            - cmd: >-
-                find build/ -mindepth 1 -maxdepth 1 -type d
-                | xargs -i cp conf/* '{}'
-
+                CGO_ENABLED=0
+                go build -o $(pwd)/{{.TARGET_FOLDER}}/{{.APP_NAME}}
+                -ldflags "-s -w -X 'main.BUILDTAGS={
+                _subversion: {{.GIT_COMMIT_NO}}, Author: {{.AUTHOR}},
+                Build date: {{.DATE}}, Git hash: {{.GIT_COMMIT_HASH}}
+                }'"
+                src/*.go
+            - cmd: file $(pwd)/build/fprint
     test:
+        desc: run tests
         cmds:
             - cmd: go test -cover -bench=. {{.SOURCE_FOLDER}}/*.go
 
-    deploy:
-        cp -rpf build/* ${HOME}/tools/arch/mybins/
-
-    mod:
+    xbuild:
+        desc: extended build utilising my personal build script 'bob'
         cmds:
-            - cmd: rm go.mod
-            - cmd: go mod init {{.APP_NAME}}
-            - cmd: go mod tidy
+            - cmd: >-
+                bob -b V -c
+                -f '_subversion: {{.GIT_COMMIT_NO}}, Author: {{.AUTHOR}},
+                Build date: {{.DATE}}, Git hash: {{.GIT_COMMIT_HASH}}'
