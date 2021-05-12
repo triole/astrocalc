@@ -11,7 +11,7 @@ A command line tool to do simple astro calculations. Results are printed in a fl
 
 ## Howto
 
-Run `astrocalc london` and get
+Run for example `astrocalc london` (or any other capital) and get the following:
 
 ```
 Time = 2021-05-11T21:46:04Z
