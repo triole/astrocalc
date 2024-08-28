@@ -4,61 +4,67 @@
 
 - [Synopsis](#synopsis)
 - [Howto](#howto)
-- [Help](#help)
 
 <!-- /toc -->
 
 ## Synopsis
 
-A command line tool to do simple astro calculations. Results are printed in a flat toml structure so that they can be parsed easily with [stoml](https://github.com/freshautomations/stoml).
+A command line tool to do simple astro calculations. Different output formats are supported.
 
 ## Howto
 
 Run for example `astrocalc london` (or any other capital) and get the following:
 
-```
-Time = 2021-05-11T21:46:04Z
-
-[Location]
-  lat = 51.5073509
-  lon = -0.1277583
-  name = "London"
-
-[Sun]
-  [Sun.Light]
-    dawn = 2021-05-11T03:35:32Z
-    dusk = 2021-05-11T20:20:53Z
-    goldenHour = 2021-05-11T18:51:26Z
-    goldenHourEnd = 2021-05-11T05:05:00Z
-    nadir = 2021-05-10T23:58:13Z
-    nauticalDawn = 2021-05-11T02:41:11Z
-    nauticalDusk = 2021-05-11T21:15:15Z
-    night = 2021-05-11T22:30:57Z
-    nightEnd = 2021-05-11T01:25:29Z
-    solarNoon = 2021-05-11T11:58:13Z
-    sunrise = 2021-05-11T04:16:03Z
-    sunriseEnd = 2021-05-11T04:20:02Z
-    sunset = 2021-05-11T19:40:23Z
-    sunsetStart = 2021-05-11T19:36:24Z
-  [Sun.Position]
-    altitude = -0.25812499509045206
-    azimuth = 2.5793811439637335
-
-[Moon]
-  [Moon.Light]
-    alwaysDown = false
-    alwaysUp = false
-    rise = 2021-05-11T04:00:00Z
-    set = 2021-05-11T19:00:00Z
-  [Moon.Position]
-    altitude = -0.2564819897797582
-    azimuth = 2.53724845080525
-    distance = 405905.7306171807
-    parallacticAngle = 0.3784449863649929
-  [Moon.Illumination]
-    angle = -1.0321882935238267
-    fraction = 0.00042794730810746806
-    phase = 0.006585310508201714
+```go mdox-exec="r london"
+{
+  "Time": "2024-08-28T23:41:28.858338489+02:00",
+  "Location": {
+    "lat": 51.5073509,
+    "lon": -0.1277583,
+    "name": "London"
+  },
+  "Sun": {
+    "Light": {
+      "dawn": "2024-08-28T04:33:12.426516224Z",
+      "dusk": "2024-08-28T19:33:11.403226624Z",
+      "goldenHour": "2024-08-28T18:12:49.817309184Z",
+      "goldenHourEnd": "2024-08-28T05:53:34.012433664Z",
+      "nadir": "2024-08-28T00:03:11.914871296Z",
+      "nauticalDawn": "2024-08-28T03:49:25.702360832Z",
+      "nauticalDusk": "2024-08-28T20:16:58.12738176Z",
+      "night": "2024-08-28T21:06:02.825229824Z",
+      "nightEnd": "2024-08-28T03:00:21.004513024Z",
+      "solarNoon": "2024-08-28T12:03:11.914871296Z",
+      "sunrise": "2024-08-28T05:08:35.498203136Z",
+      "sunriseEnd": "2024-08-28T05:12:09.582095104Z",
+      "sunset": "2024-08-28T18:57:48.331539456Z",
+      "sunsetStart": "2024-08-28T18:54:14.247647488Z"
+    },
+    "Position": {
+      "altitude": -0.38311481669464875,
+      "azimuth": 2.483177146231502
+    }
+  },
+  "Moon": {
+    "Light": {
+      "alwaysDown": false,
+      "alwaysUp": false,
+      "rise": "2024-08-28T00:00:00+02:00",
+      "set": "2024-08-28T18:00:00+02:00"
+    },
+    "Position": {
+      "altitude": -0.11678951541915662,
+      "azimuth": -2.7580385524361923,
+      "distance": 382658.29967561096,
+      "parallacticAngle": -0.2678611953890016
+    },
+    "Illumination": {
+      "angle": 1.6749193190190836,
+      "fraction": 0.245460426677734,
+      "phase": 0.8350069766968109
+    }
+  }
+}
 ```
 
 ## Help
