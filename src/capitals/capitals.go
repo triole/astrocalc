@@ -11,16 +11,16 @@ import (
 var capitalsEmbed string
 
 // Self holds the capitals class
-type Self struct {
+type tCapital struct {
 	Capitals tCapitals
 }
 
 type tCapitals []location.Location
 
 // Init does what it says
-func Init() (s Self) {
-	s.Capitals = readJSON(capitalsEmbed)
-	return s
+func Init() (cap tCapital) {
+	cap.Capitals = readJSON(capitalsEmbed)
+	return cap
 }
 
 func readJSON(content string) (capitals tCapitals) {
@@ -31,9 +31,9 @@ func readJSON(content string) (capitals tCapitals) {
 	return
 }
 
-func (self Self) GetLocation(s string) (loc location.Location) {
-	for _, cap := range self.Capitals {
-		if strings.ToLower(s) == strings.ToLower(cap.Capital) {
+func (cap tCapital) GetLocation(s string) (loc location.Location) {
+	for _, cap := range cap.Capitals {
+		if strings.EqualFold(s, cap.Capital) {
 			loc = cap
 			break
 		}

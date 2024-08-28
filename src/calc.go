@@ -51,7 +51,7 @@ func calc(now time.Time, lat float64, lon float64) (res tResults) {
 	// sunlight times
 	arr := suncalc.GetTimes(now, lat, lon)
 	for key, val := range arr {
-		res.Sun.Light[string(key)] = val.Time
+		res.Sun.Light[string(key)] = val.Value
 	}
 
 	a := suncalc.GetPosition(now, lat, lon)
