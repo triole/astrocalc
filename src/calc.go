@@ -1,6 +1,7 @@
 package main
 
 import (
+	"strings"
 	"time"
 
 	"github.com/sixdouglas/suncalc"
@@ -49,7 +50,7 @@ func calc(now time.Time, lat float64, lon float64) (res tResults) {
 	// sunlight times
 	arr := suncalc.GetTimes(now, lat, lon)
 	for key, val := range arr {
-		res.Sun.Light[string(key)] = val.Value
+		res.Sun.Light[toSnakeCase(string(key))] = val.Value
 	}
 
 	a := suncalc.GetPosition(now, lat, lon)
@@ -60,14 +61,14 @@ func calc(now time.Time, lat float64, lon float64) (res tResults) {
 	d := suncalc.GetMoonTimes(now, lat, lon, false)
 	res.Moon.Light["rise"] = d.Rise
 	res.Moon.Light["set"] = d.Set
-	res.Moon.Light["alwaysUp"] = d.AlwaysUp
-	res.Moon.Light["alwaysDown"] = d.AlwaysDown
+	res.Moon.Light["always_up"] = d.AlwaysUp
+	res.Moon.Light["always_down"] = d.AlwaysDown
 
 	b := suncalc.GetMoonPosition(now, lat, lon)
 	res.Moon.Position["altitude"] = b.Altitude
 	res.Moon.Position["azimuth"] = b.Azimuth
 	res.Moon.Position["distance"] = b.Distance
-	res.Moon.Position["parallacticAngle"] = b.ParallacticAngle
+	res.Moon.Position["parallactic_angle"] = b.ParallacticAngle
 
 	c := suncalc.GetMoonIllumination(now)
 	res.Moon.Illumination["fraction"] = c.Fraction
@@ -75,4 +76,15 @@ func calc(now time.Time, lat float64, lon float64) (res tResults) {
 	res.Moon.Illumination["angle"] = c.Angle
 
 	return
+}
+
+func toSnakeCase(s string) string {
+	var result string
+	for i, v := range s {
+		if i > 0 && v >= 'A' && v <= 'Z' {
+			result += "_"
+		}
+		result += string(v)
+	}
+	return strings.ToLower(result)
 }
