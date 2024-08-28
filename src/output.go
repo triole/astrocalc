@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"log"
 
-	"github.com/BurntSushi/toml"
+	toml "github.com/pelletier/go-toml"
 )
 
 func stringToToml(itf interface{}) []byte {
