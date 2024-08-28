@@ -21,7 +21,7 @@ var (
 
 var CLI struct {
 	Location    []string `help:"location to use" arg:"" optional:"" default:"berlin"`
-	Format      string   `help:"output format" short:"f" enum:"json,toml,yaml" default:"json"`
+	Format      string   `help:"output format, can be: json, toml, yaml" short:"f" enum:"json,toml,yaml" default:"json"`
 	VersionFlag bool     `help:"display version" short:"V"`
 }
 

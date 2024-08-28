@@ -4,6 +4,7 @@
 
 - [Synopsis](#synopsis)
 - [Howto](#howto)
+- [Help](#help)
 
 <!-- /toc -->
 
@@ -58,4 +59,20 @@ Time = 2021-05-11T21:46:04Z
     angle = -1.0321882935238267
     fraction = 0.00042794730810746806
     phase = 0.006585310508201714
+```
+
+## Help
+
+```go mdox-exec="r -h"
+Usage: astrocalc [<location> ...] [flags]
+
+simple astronomical calculation
+
+Arguments:
+  [<location> ...]    location to use
+
+Flags:
+  -h, --help             Show context-sensitive help.
+  -f, --format="json"    output format, can be: json, toml, yaml
+  -V, --version-flag     display version
 ```
