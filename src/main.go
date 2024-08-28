@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"os"
 	"strconv"
+	"strings"
 	"time"
 )
 
@@ -41,8 +42,11 @@ func main() {
 		t.Location["name"] = loc.Capital
 
 		out := stringToJSON(t)
-		if CLI.Format == "toml" {
-			out = stringToToml(t)
+		if strings.EqualFold(CLI.Format, "toml") {
+			out = stringToTOML(t)
+		}
+		if strings.EqualFold(CLI.Format, "yaml") {
+			out = stringToYAML(t)
 		}
 		fmt.Printf("%s\n", out)
 
