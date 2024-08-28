@@ -3,7 +3,6 @@ package main
 import (
 	"astrocalc/src/capitals"
 	"astrocalc/src/location"
-	"flag"
 	"fmt"
 	"os"
 	"strconv"
@@ -16,22 +15,17 @@ type tCoords struct {
 }
 
 func main() {
-	flag.Parse()
-
-	args := flag.Args()
-	if len(args) == 0 {
-		displayErr()
-	}
+	parseArgs()
 
 	var loc location.Location
 
 	// try to find capital, if fails assume to be coords
 	caps := capitals.Init()
-	capital := caps.GetLocation(args[0])
+	capital := caps.GetLocation(CLI.Location[0])
 	if capital.Capital != "" {
 		loc = capital
 	} else {
-		coords, err := parseCoords(args)
+		coords, err := parseCoords(CLI.Location)
 		if err == nil {
 			loc.Capital = "custom"
 			loc.Coords.Lat = coords.Lat
@@ -45,14 +39,20 @@ func main() {
 		now := time.Now()
 		t := calc(now, loc.Coords.Lat, loc.Coords.Lon)
 		t.Location["name"] = loc.Capital
-		fmt.Printf("%s\n", toTomlString(t))
+
+		out := stringToJSON(t)
+		if CLI.Format == "toml" {
+			out = stringToToml(t)
+		}
+		fmt.Printf("%s\n", out)
+
 	}
 }
 
 func parseCoords(arr []string) (c tCoords, err error) {
 	var fl float64
 	for idx, el := range arr {
-		fl, err = strconv.ParseFloat(el, 10)
+		fl, err = strconv.ParseFloat(el, 64)
 		if err == nil {
 			if idx == 0 {
 				c.Lat = fl

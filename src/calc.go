@@ -29,8 +29,6 @@ type tMoonLight map[string]interface{}
 type tMoonIllumination map[string]interface{}
 type tPosition map[string]float64
 
-type tMapItf map[string]interface{}
-
 func newDataset() (ds tResults) {
 	ds.Sun.Light = make(tSunLight)
 	ds.Sun.Position = make(tPosition)
