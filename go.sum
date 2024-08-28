@@ -1,0 +1,4 @@
+github.com/BurntSushi/toml v1.4.0 h1:kuoIxZQy2WRRk1pttg9asf+WVv6tWQuBNVmK8+nqPr0=
+github.com/BurntSushi/toml v1.4.0/go.mod h1:ukJfTF/6rtPPRCnwkur4qwRxa8vTRFBF0uk2lLoLwho=
+github.com/sixdouglas/suncalc v0.0.0-20230303054245-f8bc8c69d09e h1:I/wuFDXuedEYC+iSy0jzO7adpH5n+mnblZpozttUP1Y=
+github.com/sixdouglas/suncalc v0.0.0-20230303054245-f8bc8c69d09e/go.mod h1:IxOCrQX3pAL52wPiWuamnWxGcuyWANPyQfwcRb0iDqc=
