@@ -1,9 +1,11 @@
-# Astrocalc
+# Astrocalc ![build](https://github.com/triole/astrocalc/actions/workflows/build.yaml/badge.svg) ![test](https://github.com/triole/astrocalc/actions/workflows/test.yaml/badge.svg)
 
-<!--- mdtoc: toc begin -->
+<!-- toc -->
 
-1.	[Synopsis](#synopsis)
-2.	[Howto](#howto)<!--- mdtoc: toc end -->
+- [Synopsis](#synopsis)
+- [Howto](#howto)
+
+<!-- /toc -->
 
 ## Synopsis
 
