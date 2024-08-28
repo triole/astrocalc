@@ -7,21 +7,21 @@ import (
 )
 
 type tResults struct {
-	Time     time.Time
-	Location map[string]interface{}
-	Sun      tSun
-	Moon     tMoon
+	Time     time.Time              `json:"time" toml:"time" yaml:"time"`
+	Location map[string]interface{} `json:"location" toml:"location" yaml:"location"`
+	Sun      tSun                   `json:"sun" toml:"sun" yaml:"sun"`
+	Moon     tMoon                  `json:"moon" toml:"moon" yaml:"moon"`
 }
 
 type tSun struct {
-	Light    tSunLight
-	Position tPosition
+	Light    tSunLight `json:"light" toml:"light" yaml:"light"`
+	Position tPosition `json:"position" toml:"position" yaml:"position"`
 }
 
 type tMoon struct {
-	Light        tMoonLight
-	Position     tPosition
-	Illumination tMoonIllumination
+	Light        tMoonLight        `json:"light" toml:"light" yaml:"light"`
+	Position     tPosition         `json:"position" toml:"position" yaml:"position"`
+	Illumination tMoonIllumination `json:"illumination" toml:"illumination" yaml:"illumination"`
 }
 
 type tSunLight map[string]time.Time

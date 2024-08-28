@@ -17,14 +17,14 @@ Run for example `astrocalc london` (or any other capital) and get the following:
 
 ```go mdox-exec="r london"
 {
-  "Time": "2024-08-28T23:41:28.858338489+02:00",
-  "Location": {
+  "time": "2024-08-29T00:03:06.87743037+02:00",
+  "location": {
     "lat": 51.5073509,
     "lon": -0.1277583,
     "name": "London"
   },
-  "Sun": {
-    "Light": {
+  "sun": {
+    "light": {
       "dawn": "2024-08-28T04:33:12.426516224Z",
       "dusk": "2024-08-28T19:33:11.403226624Z",
       "goldenHour": "2024-08-28T18:12:49.817309184Z",
@@ -40,28 +40,28 @@ Run for example `astrocalc london` (or any other capital) and get the following:
       "sunset": "2024-08-28T18:57:48.331539456Z",
       "sunsetStart": "2024-08-28T18:54:14.247647488Z"
     },
-    "Position": {
-      "altitude": -0.38311481669464875,
-      "azimuth": 2.483177146231502
+    "position": {
+      "altitude": -0.41692918810510243,
+      "azimuth": 2.577407411869789
     }
   },
-  "Moon": {
-    "Light": {
+  "moon": {
+    "light": {
       "alwaysDown": false,
       "alwaysUp": false,
-      "rise": "2024-08-28T00:00:00+02:00",
-      "set": "2024-08-28T18:00:00+02:00"
+      "rise": "2024-08-29T01:00:00+02:00",
+      "set": "2024-08-29T19:00:00+02:00"
     },
-    "Position": {
-      "altitude": -0.11678951541915662,
-      "azimuth": -2.7580385524361923,
-      "distance": 382658.29967561096,
-      "parallacticAngle": -0.2678611953890016
+    "position": {
+      "altitude": -0.09379953186346796,
+      "azimuth": -2.6811070547214033,
+      "distance": 382729.4771832017,
+      "parallacticAngle": -0.31968796547776823
     },
-    "Illumination": {
-      "angle": 1.6749193190190836,
-      "fraction": 0.245460426677734,
-      "phase": 0.8350069766968109
+    "illumination": {
+      "angle": 1.6769018312367283,
+      "fraction": 0.24407281063319503,
+      "phase": 0.835520633623858
     }
   }
 }
