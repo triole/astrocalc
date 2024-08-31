@@ -20,36 +20,40 @@ func main() {
 
 	var loc location.Location
 
-	// try to find capital, if fails assume to be coords
-	caps := capitals.Init()
-	capital := caps.GetLocation(CLI.Location[0])
-	if capital.Capital != "" {
-		loc = capital
+	if CLI.Server {
+		runServer()
 	} else {
-		coords, err := parseCoords(CLI.Location)
-		if err == nil {
-			loc.Capital = "custom"
-			loc.Coords.Lat = coords.Lat
-			loc.Coords.Lon = coords.Lon
+		// try to find capital, if fails assume to be coords
+		caps := capitals.Init()
+		capital := caps.GetLocation(CLI.Location[0])
+		if capital.Capital != "" {
+			loc = capital
+		} else {
+			coords, err := parseCoords(CLI.Location)
+			if err == nil {
+				loc.Capital = "custom"
+				loc.Coords.Lat = coords.Lat
+				loc.Coords.Lon = coords.Lon
+			}
 		}
-	}
 
-	if loc.Capital == "" {
-		displayErr()
-	} else {
-		now := time.Now()
-		t := calc(now, loc.Coords.Lat, loc.Coords.Lon)
-		t.Location["name"] = loc.Capital
+		if loc.Capital == "" {
+			displayErr()
+		} else {
+			now := time.Now()
+			t := calc(now, loc.Coords.Lat, loc.Coords.Lon)
+			t.Location["name"] = loc.Capital
 
-		out := stringToJSON(t)
-		if strings.EqualFold(CLI.Format, "toml") {
-			out = stringToTOML(t)
+			out := stringToJSON(t)
+
+			if strings.EqualFold(CLI.Format, "toml") {
+				out = stringToTOML(t)
+			}
+			if strings.EqualFold(CLI.Format, "yaml") {
+				out = stringToYAML(t)
+			}
+			fmt.Printf("%s\n", out)
 		}
-		if strings.EqualFold(CLI.Format, "yaml") {
-			out = stringToYAML(t)
-		}
-		fmt.Printf("%s\n", out)
-
 	}
 }
 

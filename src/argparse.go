@@ -20,6 +20,8 @@ var (
 )
 
 var CLI struct {
+	Server      bool     `help:"run web server, http instead of command line use" short:"s"`
+	Port        int      `help:"web web server port" default:"8080" short:"p"`
 	Location    []string `help:"location to use" arg:"" optional:"" default:"berlin"`
 	Format      string   `help:"output format, can be: json, toml, yaml" short:"f" enum:"json,toml,yaml" default:"json"`
 	VersionFlag bool     `help:"display version" short:"V"`
