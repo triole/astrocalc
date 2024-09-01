@@ -1,8 +1,6 @@
 package main
 
 import (
-	"astrocalc/src/capitals"
-	"astrocalc/src/location"
 	"fmt"
 	"os"
 	"strconv"
@@ -18,25 +16,11 @@ type tCoords struct {
 func main() {
 	parseArgs()
 
-	var loc location.Location
-
 	if CLI.Server {
 		runServer()
 	} else {
 		// try to find capital, if fails assume to be coords
-		caps := capitals.Init()
-		capital := caps.GetLocation(CLI.Location[0])
-		if capital.Capital != "" {
-			loc = capital
-		} else {
-			coords, err := parseCoords(CLI.Location)
-			if err == nil {
-				loc.Capital = "custom"
-				loc.Coords.Lat = coords.Lat
-				loc.Coords.Lon = coords.Lon
-			}
-		}
-
+		loc := getLocation(CLI.Location)
 		if loc.Capital == "" {
 			displayErr()
 		} else {
