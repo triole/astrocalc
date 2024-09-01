@@ -60,8 +60,8 @@ func parseCoords(arr []string) (c tCoords, err error) {
 }
 
 func displayErr() {
-	fmt.Println("Failed to parse args.")
-	fmt.Println("Location required, either capital's name or lat lon coordinates")
-	fmt.Println("Examples: astrocalc berlin, astrocalc 55.2 22.1")
+	fmt.Println("can not parse args, location required")
+	fmt.Println("use either capital's name or lat lon coordinates")
+	fmt.Println("example: astrocalc berlin, astrocalc 55.2 22.1")
 	os.Exit(1)
 }
