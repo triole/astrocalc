@@ -6,6 +6,7 @@
 - [Howto](#howto)
 - [Http server use](#http-server-use)
 - [Command line use](#command-line-use)
+- [Data output example](#data-output-example)
 
 <!-- /toc -->
 
@@ -27,11 +28,13 @@ curl http://localhost:8080?lat=51.5073509&lon=-0.1277583
 
 ## Command line use
 
-Run for example `astrocalc london` (or any other capital) and get the following:
+Run for example `astrocalc london` or `astrocalc 51.507 -0.127`
+
+## Data output example
 
 ```go mdox-exec="r london"
 {
-  "time": "2024-09-01T10:30:52.893152635+02:00",
+  "time": "2024-09-01T10:34:54.166370333+02:00",
   "location": {
     "lat": 51.5073509,
     "lon": -0.1277583,
@@ -55,8 +58,8 @@ Run for example `astrocalc london` (or any other capital) and get the following:
       "sunset_start": "2024-09-01T18:45:26.559220224Z"
     },
     "position": {
-      "altitude": 0.5082532447956415,
-      "azimuth": -1.1172781485618049
+      "altitude": 0.5180177725094327,
+      "azimuth": -1.100788368879874
     }
   },
   "moon": {
@@ -67,15 +70,15 @@ Run for example `astrocalc london` (or any other capital) and get the following:
       "set": "2024-09-01T20:00:00+02:00"
     },
     "position": {
-      "altitude": 0.8090299505662782,
-      "azimuth": -0.9505970363141643,
-      "distance": 398058.2009435941,
-      "parallactic_angle": -0.5632531600482926
+      "altitude": 0.81738638265308,
+      "azimuth": -0.9305146132357468,
+      "distance": 398068.5939872828,
+      "parallactic_angle": -0.5540484171960416
     },
     "illumination": {
-      "angle": 2.111018861046427,
-      "fraction": 0.02672273588500701,
-      "phase": 0.9477310134324053
+      "angle": 2.1114360879257674,
+      "fraction": 0.026634652557527283,
+      "phase": 0.9478180102947805
     }
   }
 }
