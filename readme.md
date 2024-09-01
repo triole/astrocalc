@@ -4,6 +4,8 @@
 
 - [Synopsis](#synopsis)
 - [Howto](#howto)
+- [Http server use](#http-server-use)
+- [Command line use](#command-line-use)
 
 <!-- /toc -->
 
@@ -13,11 +15,23 @@ A command line tool to do simple astro calculations. Different output formats ar
 
 ## Howto
 
+## Http server use
+
+Run `astrocalc -s` to spin up server. Do stuff like...
+
+```shell
+curl http://localhost:8080?loc=london
+
+curl http://localhost:8080?lat=51.5073509&lon=-0.1277583
+```
+
+## Command line use
+
 Run for example `astrocalc london` (or any other capital) and get the following:
 
 ```go mdox-exec="r london"
 {
-  "time": "2024-08-29T00:09:44.36448346+02:00",
+  "time": "2024-09-01T10:30:52.893152635+02:00",
   "location": {
     "lat": 51.5073509,
     "lon": -0.1277583,
@@ -25,43 +39,43 @@ Run for example `astrocalc london` (or any other capital) and get the following:
   },
   "sun": {
     "light": {
-      "dawn": "2024-08-28T04:33:12.426516224Z",
-      "dusk": "2024-08-28T19:33:11.403226624Z",
-      "golden_hour": "2024-08-28T18:12:49.817309184Z",
-      "golden_hour_end": "2024-08-28T05:53:34.012433664Z",
-      "nadir": "2024-08-28T00:03:11.914871296Z",
-      "nautical_dawn": "2024-08-28T03:49:25.702360832Z",
-      "nautical_dusk": "2024-08-28T20:16:58.12738176Z",
-      "night": "2024-08-28T21:06:02.825229824Z",
-      "night_end": "2024-08-28T03:00:21.004513024Z",
-      "solar_noon": "2024-08-28T12:03:11.914871296Z",
-      "sunrise": "2024-08-28T05:08:35.498203136Z",
-      "sunrise_end": "2024-08-28T05:12:09.582095104Z",
-      "sunset": "2024-08-28T18:57:48.331539456Z",
-      "sunset_start": "2024-08-28T18:54:14.247647488Z"
+      "dawn": "2024-09-01T04:40:05.100157952Z",
+      "dusk": "2024-09-01T19:23:50.837085952Z",
+      "golden_hour": "2024-09-01T18:04:21.184260352Z",
+      "golden_hour_end": "2024-09-01T05:59:34.752983296Z",
+      "nadir": "2024-09-01T00:01:57.968621824Z",
+      "nautical_dawn": "2024-09-01T03:57:18.178896896Z",
+      "nautical_dusk": "2024-09-01T20:06:37.758346752Z",
+      "night": "2024-09-01T20:53:50.73799168Z",
+      "night_end": "2024-09-01T03:10:05.199251968Z",
+      "solar_noon": "2024-09-01T12:01:57.968621824Z",
+      "sunrise": "2024-09-01T05:14:57.656500224Z",
+      "sunrise_end": "2024-09-01T05:18:29.378023424Z",
+      "sunset": "2024-09-01T18:48:58.280743424Z",
+      "sunset_start": "2024-09-01T18:45:26.559220224Z"
     },
     "position": {
-      "altitude": -0.4263533541260498,
-      "azimuth": 2.6069105817646965
+      "altitude": 0.5082532447956415,
+      "azimuth": -1.1172781485618049
     }
   },
   "moon": {
     "light": {
       "always_down": false,
       "always_up": false,
-      "rise": "2024-08-29T01:00:00+02:00",
-      "set": "2024-08-29T19:00:00+02:00"
+      "rise": "2024-09-01T04:00:00+02:00",
+      "set": "2024-09-01T20:00:00+02:00"
     },
     "position": {
-      "altitude": -0.08597925031873344,
-      "azimuth": -2.657834491697706,
-      "distance": 382751.27894795325,
-      "parallactic_angle": -0.33515996911638857
+      "altitude": 0.8090299505662782,
+      "azimuth": -0.9505970363141643,
+      "distance": 398058.2009435941,
+      "parallactic_angle": -0.5632531600482926
     },
     "illumination": {
-      "angle": 1.6775088410544998,
-      "fraction": 0.24364853048063495,
-      "phase": 0.8356778874020945
+      "angle": 2.111018861046427,
+      "fraction": 0.02672273588500701,
+      "phase": 0.9477310134324053
     }
   }
 }
@@ -79,6 +93,8 @@ Arguments:
 
 Flags:
   -h, --help             Show context-sensitive help.
+  -s, --server           run web server, http instead of command line use
+  -p, --port=8080        web web server port
   -f, --format="json"    output format, can be: json, toml, yaml
   -V, --version-flag     display version
 ```
