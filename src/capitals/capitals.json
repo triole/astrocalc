@@ -1,1978 +1,1978 @@
 [
   {
-    "capital": "Kabul",
     "coords": {
       "lat": 34.5553494,
       "lon": 69.207486
     },
-    "country": "Afghanistan"
+    "country": "Afghanistan",
+    "name": "Kabul"
   },
   {
-    "capital": "Tirana",
     "coords": {
       "lat": 41.3275459,
       "lon": 19.8186982
     },
-    "country": "Albania"
+    "country": "Albania",
+    "name": "Tirana"
   },
   {
-    "capital": "Algiers",
     "coords": {
       "lat": 36.752887,
       "lon": 3.042048
     },
-    "country": "Algeria"
+    "country": "Algeria",
+    "name": "Algiers"
   },
   {
-    "capital": "Pago Pago",
     "coords": {
       "lat": -14.2756319,
       "lon": -170.7020359
     },
-    "country": "American Samoa"
+    "country": "American Samoa",
+    "name": "Pago Pago"
   },
   {
-    "capital": "Andorra la Vella",
     "coords": {
       "lat": 42.50631740000001,
       "lon": 1.5218355
     },
-    "country": "Andorra"
+    "country": "Andorra",
+    "name": "Andorra la Vella"
   },
   {
-    "capital": "Luanda",
     "coords": {
       "lat": -8.839987599999999,
       "lon": 13.2894368
     },
-    "country": "Angola"
+    "country": "Angola",
+    "name": "Luanda"
   },
   {
-    "capital": "The Valley",
     "coords": {
       "lat": 18.2148129,
       "lon": -63.0574406
     },
-    "country": "Anguilla"
+    "country": "Anguilla",
+    "name": "The Valley"
   },
   {
-    "capital": "Saint John's",
     "coords": {
       "lat": 17.1274104,
       "lon": -61.84677199999999
     },
-    "country": "Antigua and Barbuda"
+    "country": "Antigua and Barbuda",
+    "name": "Saint John's"
   },
   {
-    "capital": "Buenos Aires",
     "coords": {
       "lat": -34.6036844,
       "lon": -58.3815591
     },
-    "country": "Argentina"
+    "country": "Argentina",
+    "name": "Buenos Aires"
   },
   {
-    "capital": "Yerevan",
     "coords": {
       "lat": 40.1791857,
       "lon": 44.4991029
     },
-    "country": "Armenia"
+    "country": "Armenia",
+    "name": "Yerevan"
   },
   {
-    "capital": "Oranjestad",
     "coords": {
       "lat": 12.5092044,
       "lon": -70.0086306
     },
-    "country": "Aruba"
+    "country": "Aruba",
+    "name": "Oranjestad"
   },
   {
-    "capital": "Canberra",
     "coords": {
       "lat": -35.2819998,
       "lon": 149.1286843
     },
-    "country": "Australia"
+    "country": "Australia",
+    "name": "Canberra"
   },
   {
-    "capital": "Vienna",
     "coords": {
       "lat": 48.2081743,
       "lon": 16.3738189
     },
-    "country": "Austria"
+    "country": "Austria",
+    "name": "Vienna"
   },
   {
-    "capital": "Baku",
     "coords": {
       "lat": 40.40926169999999,
       "lon": 49.8670924
     },
-    "country": "Azerbaijan"
+    "country": "Azerbaijan",
+    "name": "Baku"
   },
   {
-    "capital": "Manama",
     "coords": {
       "lat": 26.2285161,
       "lon": 50.5860497
     },
-    "country": "Bahrain"
+    "country": "Bahrain",
+    "name": "Manama"
   },
   {
-    "capital": "Dhaka",
     "coords": {
       "lat": 23.810332,
       "lon": 90.4125181
     },
-    "country": "Bangladesh"
+    "country": "Bangladesh",
+    "name": "Dhaka"
   },
   {
-    "capital": "Bridgetown",
     "coords": {
       "lat": 13.1132219,
       "lon": -59.59880889999999
     },
-    "country": "Barbados"
+    "country": "Barbados",
+    "name": "Bridgetown"
   },
   {
-    "capital": "Minsk",
     "coords": {
       "lat": 53.90453979999999,
       "lon": 27.5615244
     },
-    "country": "Belarus"
+    "country": "Belarus",
+    "name": "Minsk"
   },
   {
-    "capital": "Brussels",
     "coords": {
       "lat": 50.8503396,
       "lon": 4.3517103
     },
-    "country": "Belgium"
+    "country": "Belgium",
+    "name": "Brussels"
   },
   {
-    "capital": "Belmopan",
     "coords": {
       "lat": 17.2510114,
       "lon": -88.7590201
     },
-    "country": "Belize"
+    "country": "Belize",
+    "name": "Belmopan"
   },
   {
-    "capital": "Porto-Novo",
     "coords": {
       "lat": 6.4968574,
       "lon": 2.6288523
     },
-    "country": "Benin"
+    "country": "Benin",
+    "name": "Porto-Novo"
   },
   {
-    "capital": "Hamilton",
     "coords": {
       "lat": 32.294816,
       "lon": -64.781375
     },
-    "country": "Bermuda"
+    "country": "Bermuda",
+    "name": "Hamilton"
   },
   {
-    "capital": "Thimphu",
     "coords": {
       "lat": 27.4727924,
       "lon": 89.6392863
     },
-    "country": "Bhutan"
+    "country": "Bhutan",
+    "name": "Thimphu"
   },
   {
-    "capital": "Sucre",
     "coords": {
       "lat": -19.0195852,
       "lon": -65.2619615
     },
-    "country": "Bolivia"
+    "country": "Bolivia",
+    "name": "Sucre"
   },
   {
-    "capital": "Kralendijk",
     "coords": {
       "lat": 12.1443491,
       "lon": -68.2655456
     },
-    "country": "Bonaire"
+    "country": "Bonaire",
+    "name": "Kralendijk"
   },
   {
-    "capital": "Sarajevo",
     "coords": {
       "lat": 43.8562586,
       "lon": 18.4130763
     },
-    "country": "Bosnia and Herzegovina"
+    "country": "Bosnia and Herzegovina",
+    "name": "Sarajevo"
   },
   {
-    "capital": "Gaborone",
     "coords": {
       "lat": -24.6282079,
       "lon": 25.9231471
     },
-    "country": "Botswana"
+    "country": "Botswana",
+    "name": "Gaborone"
   },
   {
-    "capital": "",
     "coords": {
       "lat": -54.423199,
       "lon": 3.413194
     },
-    "country": "Bouvet Island"
+    "country": "Bouvet Island",
+    "name": ""
   },
   {
-    "capital": "Brasília",
     "coords": {
       "lat": -15.7942287,
       "lon": -47.8821658
     },
-    "country": "Brazil"
+    "country": "Brazil",
+    "name": "Brasília"
   },
   {
-    "capital": "Diego Garcia",
     "coords": {
       "lat": -7.319500499999999,
       "lon": 72.42285559999999
     },
-    "country": "British Indian Ocean Territory"
+    "country": "British Indian Ocean Territory",
+    "name": "Diego Garcia"
   },
   {
-    "capital": "Road Town",
     "coords": {
       "lat": 18.4286115,
       "lon": -64.6184657
     },
-    "country": "British Virgin Islands"
+    "country": "British Virgin Islands",
+    "name": "Road Town"
   },
   {
-    "capital": "Bandar Seri Begawan",
     "coords": {
       "lat": 4.903052199999999,
       "lon": 114.939821
     },
-    "country": "Brunei"
+    "country": "Brunei",
+    "name": "Bandar Seri Begawan"
   },
   {
-    "capital": "Sofia",
     "coords": {
       "lat": 42.6977082,
       "lon": 23.3218675
     },
-    "country": "Bulgaria"
+    "country": "Bulgaria",
+    "name": "Sofia"
   },
   {
-    "capital": "Ouagadougou",
     "coords": {
       "lat": 12.3714277,
       "lon": -1.5196603
     },
-    "country": "Burkina Faso"
+    "country": "Burkina Faso",
+    "name": "Ouagadougou"
   },
   {
-    "capital": "Bujumbura",
     "coords": {
       "lat": -3.361378,
       "lon": 29.3598782
     },
-    "country": "Burundi"
+    "country": "Burundi",
+    "name": "Bujumbura"
   },
   {
-    "capital": "Phnom Penh",
     "coords": {
       "lat": 11.5448729,
       "lon": 104.8921668
     },
-    "country": "Cambodia"
+    "country": "Cambodia",
+    "name": "Phnom Penh"
   },
   {
-    "capital": "Yaoundé",
     "coords": {
       "lat": 3.8480325,
       "lon": 11.5020752
     },
-    "country": "Cameroon"
+    "country": "Cameroon",
+    "name": "Yaoundé"
   },
   {
-    "capital": "Ottawa",
     "coords": {
       "lat": 45.4215296,
       "lon": -75.69719309999999
     },
-    "country": "Canada"
+    "country": "Canada",
+    "name": "Ottawa"
   },
   {
-    "capital": "Praia",
     "coords": {
       "lat": 14.93305,
       "lon": -23.5133267
     },
-    "country": "Cape Verde"
+    "country": "Cape Verde",
+    "name": "Praia"
   },
   {
-    "capital": "George Town",
     "coords": {
       "lat": 19.2869323,
       "lon": -81.3674389
     },
-    "country": "Cayman Islands"
+    "country": "Cayman Islands",
+    "name": "George Town"
   },
   {
-    "capital": "Bangui",
     "coords": {
       "lat": 4.3946735,
       "lon": 18.5581899
     },
-    "country": "Central African Republic"
+    "country": "Central African Republic",
+    "name": "Bangui"
   },
   {
-    "capital": "N'Djamena",
     "coords": {
       "lat": 12.1348457,
       "lon": 15.0557415
     },
-    "country": "Chad"
+    "country": "Chad",
+    "name": "N'Djamena"
   },
   {
-    "capital": "Santiago",
     "coords": {
       "lat": -33.4488897,
       "lon": -70.6692655
     },
-    "country": "Chile"
+    "country": "Chile",
+    "name": "Santiago"
   },
   {
-    "capital": "Beijing",
     "coords": {
       "lat": 39.904211,
       "lon": 116.407395
     },
-    "country": "China"
+    "country": "China",
+    "name": "Beijing"
   },
   {
-    "capital": "Flying Fish Cove",
     "coords": {
       "lat": -10.4206861,
       "lon": 105.6793792
     },
-    "country": "Christmas Island"
+    "country": "Christmas Island",
+    "name": "Flying Fish Cove"
   },
   {
-    "capital": "West Island",
     "coords": {
       "lat": -12.1888345,
       "lon": 96.8293159
     },
-    "country": "Cocos (Keeling) Islands"
+    "country": "Cocos (Keeling) Islands",
+    "name": "West Island"
   },
   {
-    "capital": "Bogotá",
     "coords": {
       "lat": 4.710988599999999,
       "lon": -74.072092
     },
-    "country": "Colombia"
+    "country": "Colombia",
+    "name": "Bogotá"
   },
   {
-    "capital": "Moroni",
     "coords": {
       "lat": -11.7172157,
       "lon": 43.2473146
     },
-    "country": "Comoros"
+    "country": "Comoros",
+    "name": "Moroni"
   },
   {
-    "capital": "Avarua",
     "coords": {
       "lat": -21.2129007,
       "lon": -159.7823059
     },
-    "country": "Cook Islands"
+    "country": "Cook Islands",
+    "name": "Avarua"
   },
   {
-    "capital": "San José",
     "coords": {
       "lat": 9.9280694,
       "lon": -84.0907246
     },
-    "country": "Costa Rica"
+    "country": "Costa Rica",
+    "name": "San José"
   },
   {
-    "capital": "Zagreb",
     "coords": {
       "lat": 45.8150108,
       "lon": 15.981919
     },
-    "country": "Croatia"
+    "country": "Croatia",
+    "name": "Zagreb"
   },
   {
-    "capital": "Havana",
     "coords": {
       "lat": 23.0540698,
       "lon": -82.34518899999999
     },
-    "country": "Cuba"
+    "country": "Cuba",
+    "name": "Havana"
   },
   {
-    "capital": "Willemstad",
     "coords": {
       "lat": 12.1224221,
       "lon": -68.8824233
     },
-    "country": "Curaçao"
+    "country": "Curaçao",
+    "name": "Willemstad"
   },
   {
-    "capital": "Nicosia",
     "coords": {
       "lat": 35.0400155,
       "lon": 33.1239049
     },
-    "country": "Cyprus"
+    "country": "Cyprus",
+    "name": "Nicosia"
   },
   {
-    "capital": "Prague",
     "coords": {
       "lat": 50.0755381,
       "lon": 14.4378005
     },
-    "country": "Czech Republic"
+    "country": "Czech Republic",
+    "name": "Prague"
   },
   {
-    "capital": "Kinshasa",
     "coords": {
       "lat": -4.4419311,
       "lon": 15.2662931
     },
-    "country": "Democratic Republic of the Congo"
+    "country": "Democratic Republic of the Congo",
+    "name": "Kinshasa"
   },
   {
-    "capital": "Copenhagen",
     "coords": {
       "lat": 55.6760968,
       "lon": 12.5683371
     },
-    "country": "Denmark"
+    "country": "Denmark",
+    "name": "Copenhagen"
   },
   {
-    "capital": "Djibouti",
     "coords": {
       "lat": 11.5720765,
       "lon": 43.1456475
     },
-    "country": "Djibouti"
+    "country": "Djibouti",
+    "name": "Djibouti"
   },
   {
-    "capital": "Roseau",
     "coords": {
       "lat": 15.3091676,
       "lon": -61.37935539999999
     },
-    "country": "Dominica"
+    "country": "Dominica",
+    "name": "Roseau"
   },
   {
-    "capital": "Santo Domingo",
     "coords": {
       "lat": 18.4860575,
       "lon": -69.93121169999999
     },
-    "country": "Dominican Republic"
+    "country": "Dominican Republic",
+    "name": "Santo Domingo"
   },
   {
-    "capital": "Dili",
     "coords": {
       "lat": -8.5568557,
       "lon": 125.5603143
     },
-    "country": "East Timor"
+    "country": "East Timor",
+    "name": "Dili"
   },
   {
-    "capital": "Quito",
     "coords": {
       "lat": -0.1806532,
       "lon": -78.4678382
     },
-    "country": "Ecuador"
+    "country": "Ecuador",
+    "name": "Quito"
   },
   {
-    "capital": "Cairo",
     "coords": {
       "lat": 30.0444196,
       "lon": 31.2357116
     },
-    "country": "Egypt"
+    "country": "Egypt",
+    "name": "Cairo"
   },
   {
-    "capital": "San Salvador",
     "coords": {
       "lat": 13.6929403,
       "lon": -89.2181911
     },
-    "country": "El Salvador"
+    "country": "El Salvador",
+    "name": "San Salvador"
   },
   {
-    "capital": "Malabo",
     "coords": {
       "lat": 3.7504118,
       "lon": 8.7371039
     },
-    "country": "Equatorial Guinea"
+    "country": "Equatorial Guinea",
+    "name": "Malabo"
   },
   {
-    "capital": "Asmara",
     "coords": {
       "lat": 15.3228767,
       "lon": 38.9250517
     },
-    "country": "Eritrea"
+    "country": "Eritrea",
+    "name": "Asmara"
   },
   {
-    "capital": "Tallinn",
     "coords": {
       "lat": 59.43696079999999,
       "lon": 24.7535746
     },
-    "country": "Estonia"
+    "country": "Estonia",
+    "name": "Tallinn"
   },
   {
-    "capital": "Addis Ababa",
     "coords": {
       "lat": 8.9806034,
       "lon": 38.7577605
     },
-    "country": "Ethiopia"
+    "country": "Ethiopia",
+    "name": "Addis Ababa"
   },
   {
-    "capital": "Stanley",
     "coords": {
       "lat": -51.6977129,
       "lon": -57.85166269999999
     },
-    "country": "Falkland Islands"
+    "country": "Falkland Islands",
+    "name": "Stanley"
   },
   {
-    "capital": "Tórshavn",
     "coords": {
       "lat": 62.007864,
       "lon": -6.7909816
     },
-    "country": "Faroe Islands"
+    "country": "Faroe Islands",
+    "name": "Tórshavn"
   },
   {
-    "capital": "Palikir",
     "coords": {
       "lat": 6.9147118,
       "lon": 158.1610274
     },
-    "country": "Federated States of Micronesia"
+    "country": "Federated States of Micronesia",
+    "name": "Palikir"
   },
   {
-    "capital": "Suva",
     "coords": {
       "lat": -18.1248086,
       "lon": 178.4500789
     },
-    "country": "Fiji"
+    "country": "Fiji",
+    "name": "Suva"
   },
   {
-    "capital": "Helsinki",
     "coords": {
       "lat": 60.17332440000001,
       "lon": 24.9410248
     },
-    "country": "Finland"
+    "country": "Finland",
+    "name": "Helsinki"
   },
   {
-    "capital": "Paris",
     "coords": {
       "lat": 48.856614,
       "lon": 2.3522219
     },
-    "country": "France"
+    "country": "France",
+    "name": "Paris"
   },
   {
-    "capital": "Cayenne",
     "coords": {
       "lat": 4.92242,
       "lon": -52.3134531
     },
-    "country": "French Guiana"
+    "country": "French Guiana",
+    "name": "Cayenne"
   },
   {
-    "capital": "Papeetē",
     "coords": {
       "lat": -17.5516251,
       "lon": -149.5584758
     },
-    "country": "French Polynesia"
+    "country": "French Polynesia",
+    "name": "Papeetē"
   },
   {
-    "capital": "Port-aux-Français",
     "coords": {
       "lat": -49.3496422,
       "lon": 70.2180039
     },
-    "country": "French Southern and Antarctic Lands"
+    "country": "French Southern and Antarctic Lands",
+    "name": "Port-aux-Français"
   },
   {
-    "capital": "Libreville",
     "coords": {
       "lat": 0.4161976,
       "lon": 9.4672676
     },
-    "country": "Gabon"
+    "country": "Gabon",
+    "name": "Libreville"
   },
   {
-    "capital": "Tbilisi",
     "coords": {
       "lat": 41.7151377,
       "lon": 44.827096
     },
-    "country": "Georgia"
+    "country": "Georgia",
+    "name": "Tbilisi"
   },
   {
-    "capital": "Berlin",
     "coords": {
       "lat": 52.52000659999999,
       "lon": 13.404954
     },
-    "country": "Germany"
+    "country": "Germany",
+    "name": "Berlin"
   },
   {
-    "capital": "Accra",
     "coords": {
       "lat": 5.6037168,
       "lon": -0.1869644
     },
-    "country": "Ghana"
+    "country": "Ghana",
+    "name": "Accra"
   },
   {
-    "capital": "Gibraltar",
     "coords": {
       "lat": 36.1407734,
       "lon": -5.353599399999999
     },
-    "country": "Gibraltar"
+    "country": "Gibraltar",
+    "name": "Gibraltar"
   },
   {
-    "capital": "Athens",
     "coords": {
       "lat": 37.983917,
       "lon": 23.7293599
     },
-    "country": "Greece"
+    "country": "Greece",
+    "name": "Athens"
   },
   {
-    "capital": "Nuuk",
     "coords": {
       "lat": 64.18140989999999,
       "lon": -51.694138
     },
-    "country": "Greenland"
+    "country": "Greenland",
+    "name": "Nuuk"
   },
   {
-    "capital": "St. George's",
     "coords": {
       "lat": 12.0560975,
       "lon": -61.7487996
     },
-    "country": "Grenada"
+    "country": "Grenada",
+    "name": "St. George's"
   },
   {
-    "capital": "Basse-Terre",
     "coords": {
       "lat": 16.0144526,
       "lon": -61.7064109
     },
-    "country": "Guadeloupe"
+    "country": "Guadeloupe",
+    "name": "Basse-Terre"
   },
   {
-    "capital": "Hagåtña",
     "coords": {
       "lat": 13.4762824,
       "lon": 144.7502228
     },
-    "country": "Guam"
+    "country": "Guam",
+    "name": "Hagåtña"
   },
   {
-    "capital": "Guatemala City",
     "coords": {
       "lat": 14.6349149,
       "lon": -90.5068824
     },
-    "country": "Guatemala"
+    "country": "Guatemala",
+    "name": "Guatemala City"
   },
   {
-    "capital": "St. Peter Port",
     "coords": {
       "lat": 49.455443,
       "lon": -2.5368711
     },
-    "country": "Guernsey"
+    "country": "Guernsey",
+    "name": "St. Peter Port"
   },
   {
-    "capital": "Conakry",
     "coords": {
       "lat": 9.641185499999999,
       "lon": -13.5784012
     },
-    "country": "Guinea"
+    "country": "Guinea",
+    "name": "Conakry"
   },
   {
-    "capital": "Bissau",
     "coords": {
       "lat": 11.8816553,
       "lon": -15.6177942
     },
-    "country": "Guinea-Bissau"
+    "country": "Guinea-Bissau",
+    "name": "Bissau"
   },
   {
-    "capital": "Georgetown",
     "coords": {
       "lat": 6.8012793,
       "lon": -58.1551255
     },
-    "country": "Guyana"
+    "country": "Guyana",
+    "name": "Georgetown"
   },
   {
-    "capital": "Port-au-Prince",
     "coords": {
       "lat": 18.594395,
       "lon": -72.3074326
     },
-    "country": "Haiti"
+    "country": "Haiti",
+    "name": "Port-au-Prince"
   },
   {
-    "capital": "",
     "coords": {
       "lat": -53.08181,
       "lon": 73.50415799999999
     },
-    "country": "Heard Island and McDonald Islands"
+    "country": "Heard Island and McDonald Islands",
+    "name": ""
   },
   {
-    "capital": "Tegucigalpa",
     "coords": {
       "lat": 14.0722751,
       "lon": -87.19213599999999
     },
-    "country": "Honduras"
+    "country": "Honduras",
+    "name": "Tegucigalpa"
   },
   {
-    "capital": "City of Victoria",
     "coords": {
       "lat": 22.31956,
       "lon": 114.169718
     },
-    "country": "Hong Kong"
+    "country": "Hong Kong",
+    "name": "City of Victoria"
   },
   {
-    "capital": "Budapest",
     "coords": {
       "lat": 47.497912,
       "lon": 19.040235
     },
-    "country": "Hungary"
+    "country": "Hungary",
+    "name": "Budapest"
   },
   {
-    "capital": "Reykjavik",
     "coords": {
       "lat": 64.12652059999999,
       "lon": -21.8174393
     },
-    "country": "Iceland"
+    "country": "Iceland",
+    "name": "Reykjavik"
   },
   {
-    "capital": "New Delhi",
     "coords": {
       "lat": 28.6139391,
       "lon": 77.2090212
     },
-    "country": "India"
+    "country": "India",
+    "name": "New Delhi"
   },
   {
-    "capital": "Jakarta",
     "coords": {
       "lat": -6.2087634,
       "lon": 106.845599
     },
-    "country": "Indonesia"
+    "country": "Indonesia",
+    "name": "Jakarta"
   },
   {
-    "capital": "Tehran",
     "coords": {
       "lat": 35.6891975,
       "lon": 51.3889736
     },
-    "country": "Iran"
+    "country": "Iran",
+    "name": "Tehran"
   },
   {
-    "capital": "Baghdad",
     "coords": {
       "lat": 33.3128057,
       "lon": 44.3614875
     },
-    "country": "Iraq"
+    "country": "Iraq",
+    "name": "Baghdad"
   },
   {
-    "capital": "Douglas",
     "coords": {
       "lat": 54.1523372,
       "lon": -4.4861228
     },
-    "country": "Isle of Man"
+    "country": "Isle of Man",
+    "name": "Douglas"
   },
   {
-    "capital": "Jerusalem",
     "coords": {
       "lat": 31.768319,
       "lon": 35.21371
     },
-    "country": "Israel"
+    "country": "Israel",
+    "name": "Jerusalem"
   },
   {
-    "capital": "Rome",
     "coords": {
       "lat": 41.9027835,
       "lon": 12.4963655
     },
-    "country": "Italy"
+    "country": "Italy",
+    "name": "Rome"
   },
   {
-    "capital": "Yamoussoukro",
     "coords": {
       "lat": 6.827622799999999,
       "lon": -5.2893433
     },
-    "country": "Ivory Coast"
+    "country": "Ivory Coast",
+    "name": "Yamoussoukro"
   },
   {
-    "capital": "Kingston",
     "coords": {
       "lat": 18.0178743,
       "lon": -76.8099041
     },
-    "country": "Jamaica"
+    "country": "Jamaica",
+    "name": "Kingston"
   },
   {
-    "capital": "Tokyo",
     "coords": {
       "lat": 35.7090259,
       "lon": 139.7319925
     },
-    "country": "Japan"
+    "country": "Japan",
+    "name": "Tokyo"
   },
   {
-    "capital": "Saint Helier",
     "coords": {
       "lat": 49.1868225,
       "lon": -2.1065682
     },
-    "country": "Jersey"
+    "country": "Jersey",
+    "name": "Saint Helier"
   },
   {
-    "capital": "Amman",
     "coords": {
       "lat": 31.9565783,
       "lon": 35.9456951
     },
-    "country": "Jordan"
+    "country": "Jordan",
+    "name": "Amman"
   },
   {
-    "capital": "Astana",
     "coords": {
       "lat": 51.16052269999999,
       "lon": 71.4703558
     },
-    "country": "Kazakhstan"
+    "country": "Kazakhstan",
+    "name": "Astana"
   },
   {
-    "capital": "Nairobi",
     "coords": {
       "lat": -1.2920659,
       "lon": 36.8219462
     },
-    "country": "Kenya"
+    "country": "Kenya",
+    "name": "Nairobi"
   },
   {
-    "capital": "South Tarawa",
     "coords": {
       "lat": 1.3290526,
       "lon": 172.9790528
     },
-    "country": "Kiribati"
+    "country": "Kiribati",
+    "name": "South Tarawa"
   },
   {
-    "capital": "Kuwait City",
     "coords": {
       "lat": 29.375859,
       "lon": 47.9774052
     },
-    "country": "Kuwait"
+    "country": "Kuwait",
+    "name": "Kuwait City"
   },
   {
-    "capital": "Bishkek",
     "coords": {
       "lat": 42.8746212,
       "lon": 74.5697617
     },
-    "country": "Kyrgyzstan"
+    "country": "Kyrgyzstan",
+    "name": "Bishkek"
   },
   {
-    "capital": "Vientiane",
     "coords": {
       "lat": 17.9757058,
       "lon": 102.6331035
     },
-    "country": "Laos"
+    "country": "Laos",
+    "name": "Vientiane"
   },
   {
-    "capital": "Riga",
     "coords": {
       "lat": 56.9496487,
       "lon": 24.1051864
     },
-    "country": "Latvia"
+    "country": "Latvia",
+    "name": "Riga"
   },
   {
-    "capital": "Beirut",
     "coords": {
       "lat": 33.8886289,
       "lon": 35.4954794
     },
-    "country": "Lebanon"
+    "country": "Lebanon",
+    "name": "Beirut"
   },
   {
-    "capital": "Maseru",
     "coords": {
       "lat": -29.36321879999999,
       "lon": 27.5143603
     },
-    "country": "Lesotho"
+    "country": "Lesotho",
+    "name": "Maseru"
   },
   {
-    "capital": "Monrovia",
     "coords": {
       "lat": 6.2907432,
       "lon": -10.7605239
     },
-    "country": "Liberia"
+    "country": "Liberia",
+    "name": "Monrovia"
   },
   {
-    "capital": "Tripoli",
     "coords": {
       "lat": 32.8872094,
       "lon": 13.1913383
     },
-    "country": "Libya"
+    "country": "Libya",
+    "name": "Tripoli"
   },
   {
-    "capital": "Vaduz",
     "coords": {
       "lat": 47.1410303,
       "lon": 9.5209277
     },
-    "country": "Liechtenstein"
+    "country": "Liechtenstein",
+    "name": "Vaduz"
   },
   {
-    "capital": "Vilnius",
     "coords": {
       "lat": 54.6871555,
       "lon": 25.2796514
     },
-    "country": "Lithuania"
+    "country": "Lithuania",
+    "name": "Vilnius"
   },
   {
-    "capital": "Luxembourg",
     "coords": {
       "lat": 49.61162100000001,
       "lon": 6.1319346
     },
-    "country": "Luxembourg"
+    "country": "Luxembourg",
+    "name": "Luxembourg"
   },
   {
-    "capital": "",
     "coords": {
       "lat": 22.198745,
       "lon": 113.543873
     },
-    "country": "Macau"
+    "country": "Macau",
+    "name": ""
   },
   {
-    "capital": "Antananarivo",
     "coords": {
       "lat": -18.8791902,
       "lon": 47.5079055
     },
-    "country": "Madagascar"
+    "country": "Madagascar",
+    "name": "Antananarivo"
   },
   {
-    "capital": "Lilongwe",
     "coords": {
       "lat": -13.9626121,
       "lon": 33.7741195
     },
-    "country": "Malawi"
+    "country": "Malawi",
+    "name": "Lilongwe"
   },
   {
-    "capital": "Kuala Lumpur",
     "coords": {
       "lat": 3.139003,
       "lon": 101.686855
     },
-    "country": "Malaysia"
+    "country": "Malaysia",
+    "name": "Kuala Lumpur"
   },
   {
-    "capital": "Malé",
     "coords": {
       "lat": 4.1754959,
       "lon": 73.5093474
     },
-    "country": "Maldives"
+    "country": "Maldives",
+    "name": "Malé"
   },
   {
-    "capital": "Bamako",
     "coords": {
       "lat": 12.6392316,
       "lon": -8.0028892
     },
-    "country": "Mali"
+    "country": "Mali",
+    "name": "Bamako"
   },
   {
-    "capital": "Valletta",
     "coords": {
       "lat": 35.8989085,
       "lon": 14.5145528
     },
-    "country": "Malta"
+    "country": "Malta",
+    "name": "Valletta"
   },
   {
-    "capital": "Majuro",
     "coords": {
       "lat": 7.1164214,
       "lon": 171.1857736
     },
-    "country": "Marshall Islands"
+    "country": "Marshall Islands",
+    "name": "Majuro"
   },
   {
-    "capital": "Fort-de-France",
     "coords": {
       "lat": 14.6160647,
       "lon": -61.0587804
     },
-    "country": "Martinique"
+    "country": "Martinique",
+    "name": "Fort-de-France"
   },
   {
-    "capital": "Nouakchott",
     "coords": {
       "lat": 18.0735299,
       "lon": -15.9582372
     },
-    "country": "Mauritania"
+    "country": "Mauritania",
+    "name": "Nouakchott"
   },
   {
-    "capital": "Port Louis",
     "coords": {
       "lat": -20.1668958,
       "lon": 57.502332
     },
-    "country": "Mauritius"
+    "country": "Mauritius",
+    "name": "Port Louis"
   },
   {
-    "capital": "Mamoudzou",
     "coords": {
       "lat": -12.7809488,
       "lon": 45.227872
     },
-    "country": "Mayotte"
+    "country": "Mayotte",
+    "name": "Mamoudzou"
   },
   {
-    "capital": "Mexico City",
     "coords": {
       "lat": 19.4326077,
       "lon": -99.133208
     },
-    "country": "Mexico"
+    "country": "Mexico",
+    "name": "Mexico City"
   },
   {
-    "capital": "Chișinău",
     "coords": {
       "lat": 47.0104529,
       "lon": 28.8638103
     },
-    "country": "Moldova"
+    "country": "Moldova",
+    "name": "Chișinău"
   },
   {
-    "capital": "Monaco",
     "coords": {
       "lat": 43.73741099999999,
       "lon": 7.420815999999999
     },
-    "country": "Monaco"
+    "country": "Monaco",
+    "name": "Monaco"
   },
   {
-    "capital": "Ulan Bator",
     "coords": {
       "lat": 47.88639879999999,
       "lon": 106.9057439
     },
-    "country": "Mongolia"
+    "country": "Mongolia",
+    "name": "Ulan Bator"
   },
   {
-    "capital": "Podgorica",
     "coords": {
       "lat": 42.4304196,
       "lon": 19.2593642
     },
-    "country": "Montenegro"
+    "country": "Montenegro",
+    "name": "Podgorica"
   },
   {
-    "capital": "Plymouth",
     "coords": {
       "lat": 16.706523,
       "lon": -62.21573799999999
     },
-    "country": "Montserrat"
+    "country": "Montserrat",
+    "name": "Plymouth"
   },
   {
-    "capital": "Rabat",
     "coords": {
       "lat": 33.9715904,
       "lon": -6.8498129
     },
-    "country": "Morocco"
+    "country": "Morocco",
+    "name": "Rabat"
   },
   {
-    "capital": "Maputo",
     "coords": {
       "lat": -25.891968,
       "lon": 32.6051351
     },
-    "country": "Mozambique"
+    "country": "Mozambique",
+    "name": "Maputo"
   },
   {
-    "capital": "Naypyidaw",
     "coords": {
       "lat": 19.7633057,
       "lon": 96.07851040000001
     },
-    "country": "Myanmar"
+    "country": "Myanmar",
+    "name": "Naypyidaw"
   },
   {
-    "capital": "Windhoek",
     "coords": {
       "lat": -22.5608807,
       "lon": 17.0657549
     },
-    "country": "Namibia"
+    "country": "Namibia",
+    "name": "Windhoek"
   },
   {
-    "capital": "Yaren",
     "coords": {
       "lat": -0.5466856999999999,
       "lon": 166.9210913
     },
-    "country": "Nauru"
+    "country": "Nauru",
+    "name": "Yaren"
   },
   {
-    "capital": "Kathmandu",
     "coords": {
       "lat": 27.7172453,
       "lon": 85.3239605
     },
-    "country": "Nepal"
+    "country": "Nepal",
+    "name": "Kathmandu"
   },
   {
-    "capital": "Amsterdam",
     "coords": {
       "lat": 52.3702157,
       "lon": 4.895167900000001
     },
-    "country": "Netherlands"
+    "country": "Netherlands",
+    "name": "Amsterdam"
   },
   {
-    "capital": "Nouméa",
     "coords": {
       "lat": -22.2558234,
       "lon": 166.4505243
     },
-    "country": "New Caledonia"
+    "country": "New Caledonia",
+    "name": "Nouméa"
   },
   {
-    "capital": "Wellington",
     "coords": {
       "lat": -41.2864603,
       "lon": 174.776236
     },
-    "country": "New Zealand"
+    "country": "New Zealand",
+    "name": "Wellington"
   },
   {
-    "capital": "Managua",
     "coords": {
       "lat": 12.1149926,
       "lon": -86.2361744
     },
-    "country": "Nicaragua"
+    "country": "Nicaragua",
+    "name": "Managua"
   },
   {
-    "capital": "Niamey",
     "coords": {
       "lat": 13.5115963,
       "lon": 2.1253854
     },
-    "country": "Niger"
+    "country": "Niger",
+    "name": "Niamey"
   },
   {
-    "capital": "Abuja",
     "coords": {
       "lat": 9.0764785,
       "lon": 7.398574
     },
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "name": "Abuja"
   },
   {
-    "capital": "Alofi",
     "coords": {
       "lat": -19.0553711,
       "lon": -169.9178709
     },
-    "country": "Niue"
+    "country": "Niue",
+    "name": "Alofi"
   },
   {
-    "capital": "Kingston",
     "coords": {
       "lat": -29.0563937,
       "lon": 167.959588
     },
-    "country": "Norfolk Island"
+    "country": "Norfolk Island",
+    "name": "Kingston"
   },
   {
-    "capital": "Pyongyang",
     "coords": {
       "lat": 39.0392193,
       "lon": 125.7625241
     },
-    "country": "North Korea"
+    "country": "North Korea",
+    "name": "Pyongyang"
   },
   {
-    "capital": "Saipan",
     "coords": {
       "lat": 15.177801,
       "lon": 145.750967
     },
-    "country": "Northern Mariana Islands"
+    "country": "Northern Mariana Islands",
+    "name": "Saipan"
   },
   {
-    "capital": "Oslo",
     "coords": {
       "lat": 59.9138688,
       "lon": 10.7522454
     },
-    "country": "Norway"
+    "country": "Norway",
+    "name": "Oslo"
   },
   {
-    "capital": "Muscat",
     "coords": {
       "lat": 23.58589,
       "lon": 58.4059227
     },
-    "country": "Oman"
+    "country": "Oman",
+    "name": "Muscat"
   },
   {
-    "capital": "Islamabad",
     "coords": {
       "lat": 33.7293882,
       "lon": 73.0931461
     },
-    "country": "Pakistan"
+    "country": "Pakistan",
+    "name": "Islamabad"
   },
   {
-    "capital": "Ngerulmud",
     "coords": {
       "lat": 7.5003835,
       "lon": 134.624289
     },
-    "country": "Palau"
+    "country": "Palau",
+    "name": "Ngerulmud"
   },
   {
-    "capital": "Ramallah",
     "coords": {
       "lat": 31.8980428,
       "lon": 35.2042714
     },
-    "country": "Palestine"
+    "country": "Palestine",
+    "name": "Ramallah"
   },
   {
-    "capital": "Panama City",
     "coords": {
       "lat": 9.1011785,
       "lon": -79.4028639
     },
-    "country": "Panama"
+    "country": "Panama",
+    "name": "Panama City"
   },
   {
-    "capital": "Port Moresby",
     "coords": {
       "lat": -9.443800399999999,
       "lon": 147.1802671
     },
-    "country": "Papua New Guinea"
+    "country": "Papua New Guinea",
+    "name": "Port Moresby"
   },
   {
-    "capital": "Asunción",
     "coords": {
       "lat": -25.2637399,
       "lon": -57.57592599999999
     },
-    "country": "Paraguay"
+    "country": "Paraguay",
+    "name": "Asunción"
   },
   {
-    "capital": "Lima",
     "coords": {
       "lat": -12.046374,
       "lon": -77.0427934
     },
-    "country": "Peru"
+    "country": "Peru",
+    "name": "Lima"
   },
   {
-    "capital": "Manila",
     "coords": {
       "lat": 14.5995124,
       "lon": 120.9842195
     },
-    "country": "Philippines"
+    "country": "Philippines",
+    "name": "Manila"
   },
   {
-    "capital": "Adamstown",
     "coords": {
       "lat": -25.0662897,
       "lon": -130.1004636
     },
-    "country": "Pitcairn Islands"
+    "country": "Pitcairn Islands",
+    "name": "Adamstown"
   },
   {
-    "capital": "Warsaw",
     "coords": {
       "lat": 52.2296756,
       "lon": 21.0122287
     },
-    "country": "Poland"
+    "country": "Poland",
+    "name": "Warsaw"
   },
   {
-    "capital": "Lisbon",
     "coords": {
       "lat": 38.7222524,
       "lon": -9.1393366
     },
-    "country": "Portugal"
+    "country": "Portugal",
+    "name": "Lisbon"
   },
   {
-    "capital": "San Juan",
     "coords": {
       "lat": 18.4663338,
       "lon": -66.1057217
     },
-    "country": "Puerto Rico"
+    "country": "Puerto Rico",
+    "name": "San Juan"
   },
   {
-    "capital": "Doha",
     "coords": {
       "lat": 25.2854473,
       "lon": 51.53103979999999
     },
-    "country": "Qatar"
+    "country": "Qatar",
+    "name": "Doha"
   },
   {
-    "capital": "Dublin",
     "coords": {
       "lat": 53.3498053,
       "lon": -6.2603097
     },
-    "country": "Republic of Ireland"
+    "country": "Republic of Ireland",
+    "name": "Dublin"
   },
   {
-    "capital": "Pristina",
     "coords": {
       "lat": 42.6647855,
       "lon": 21.1641509
     },
-    "country": "Republic of Kosovo"
+    "country": "Republic of Kosovo",
+    "name": "Pristina"
   },
   {
-    "capital": "Skopje",
     "coords": {
       "lat": 41.9973462,
       "lon": 21.4279956
     },
-    "country": "Republic of Macedonia"
+    "country": "Republic of Macedonia",
+    "name": "Skopje"
   },
   {
-    "capital": "Brazzaville",
     "coords": {
       "lat": -4.2633597,
       "lon": 15.2428853
     },
-    "country": "Republic of the Congo"
+    "country": "Republic of the Congo",
+    "name": "Brazzaville"
   },
   {
-    "capital": "Bucharest",
     "coords": {
       "lat": 44.4267674,
       "lon": 26.1025384
     },
-    "country": "Romania"
+    "country": "Romania",
+    "name": "Bucharest"
   },
   {
-    "capital": "Moscow",
     "coords": {
       "lat": 55.755826,
       "lon": 37.6173
     },
-    "country": "Russia"
+    "country": "Russia",
+    "name": "Moscow"
   },
   {
-    "capital": "Kigali",
     "coords": {
       "lat": -1.9705786,
       "lon": 30.1044288
     },
-    "country": "Rwanda"
+    "country": "Rwanda",
+    "name": "Kigali"
   },
   {
-    "capital": "Saint-Denis",
     "coords": {
       "lat": -20.882057,
       "lon": 55.450675
     },
-    "country": "Réunion"
+    "country": "Réunion",
+    "name": "Saint-Denis"
   },
   {
-    "capital": "Gustavia",
     "coords": {
       "lat": 17.8964345,
       "lon": -62.85220099999999
     },
-    "country": "Saint Barthélemy"
+    "country": "Saint Barthélemy",
+    "name": "Gustavia"
   },
   {
-    "capital": "Jamestown",
     "coords": {
       "lat": -15.9286343,
       "lon": -5.7151749
     },
-    "country": "Saint Helena"
+    "country": "Saint Helena",
+    "name": "Jamestown"
   },
   {
-    "capital": "Basseterre",
     "coords": {
       "lat": 17.3026058,
       "lon": -62.7176924
     },
-    "country": "Saint Kitts and Nevis"
+    "country": "Saint Kitts and Nevis",
+    "name": "Basseterre"
   },
   {
-    "capital": "Castries",
     "coords": {
       "lat": 14.0101094,
       "lon": -60.98746869999999
     },
-    "country": "Saint Lucia"
+    "country": "Saint Lucia",
+    "name": "Castries"
   },
   {
-    "capital": "Marigot",
     "coords": {
       "lat": 18.0675189,
       "lon": -63.0824656
     },
-    "country": "Saint Martin"
+    "country": "Saint Martin",
+    "name": "Marigot"
   },
   {
-    "capital": "Saint-Pierre",
     "coords": {
       "lat": 46.7758459,
       "lon": -56.1806363
     },
-    "country": "Saint Pierre and Miquelon"
+    "country": "Saint Pierre and Miquelon",
+    "name": "Saint-Pierre"
   },
   {
-    "capital": "Kingstown",
     "coords": {
       "lat": 13.1600249,
       "lon": -61.2248157
     },
-    "country": "Saint Vincent and the Grenadines"
+    "country": "Saint Vincent and the Grenadines",
+    "name": "Kingstown"
   },
   {
-    "capital": "Apia",
     "coords": {
       "lat": -13.8506958,
       "lon": -171.7513551
     },
-    "country": "Samoa"
+    "country": "Samoa",
+    "name": "Apia"
   },
   {
-    "capital": "City of San Marino",
     "coords": {
       "lat": 43.9355907,
       "lon": 12.4472806
     },
-    "country": "San Marino"
+    "country": "San Marino",
+    "name": "City of San Marino"
   },
   {
-    "capital": "Riyadh",
     "coords": {
       "lat": 25.0054482,
       "lon": 46.544831
     },
-    "country": "Saudi Arabia"
+    "country": "Saudi Arabia",
+    "name": "Riyadh"
   },
   {
-    "capital": "Dakar",
     "coords": {
       "lat": 14.7645042,
       "lon": -17.3660286
     },
-    "country": "Senegal"
+    "country": "Senegal",
+    "name": "Dakar"
   },
   {
-    "capital": "Belgrade",
     "coords": {
       "lat": 44.786568,
       "lon": 20.4489216
     },
-    "country": "Serbia"
+    "country": "Serbia",
+    "name": "Belgrade"
   },
   {
-    "capital": "Victoria",
     "coords": {
       "lat": -4.619143,
       "lon": 55.4513149
     },
-    "country": "Seychelles"
+    "country": "Seychelles",
+    "name": "Victoria"
   },
   {
-    "capital": "Freetown",
     "coords": {
       "lat": 8.4656765,
       "lon": -13.2317225
     },
-    "country": "Sierra Leone"
+    "country": "Sierra Leone",
+    "name": "Freetown"
   },
   {
-    "capital": "Singapore",
     "coords": {
       "lat": 1.3553794,
       "lon": 103.8677444
     },
-    "country": "Singapore"
+    "country": "Singapore",
+    "name": "Singapore"
   },
   {
-    "capital": "Philipsburg",
     "coords": {
       "lat": 18.0295839,
       "lon": -63.04713709999999
     },
-    "country": "Sint Maarten"
+    "country": "Sint Maarten",
+    "name": "Philipsburg"
   },
   {
-    "capital": "Bratislava",
     "coords": {
       "lat": 48.1458923,
       "lon": 17.1071373
     },
-    "country": "Slovakia"
+    "country": "Slovakia",
+    "name": "Bratislava"
   },
   {
-    "capital": "Ljubljana",
     "coords": {
       "lat": 46.0569465,
       "lon": 14.5057515
     },
-    "country": "Slovenia"
+    "country": "Slovenia",
+    "name": "Ljubljana"
   },
   {
-    "capital": "Honiara",
     "coords": {
       "lat": -9.4456381,
       "lon": 159.9728999
     },
-    "country": "Solomon Islands"
+    "country": "Solomon Islands",
+    "name": "Honiara"
   },
   {
-    "capital": "Mogadishu",
     "coords": {
       "lat": 2.0469343,
       "lon": 45.3181623
     },
-    "country": "Somalia"
+    "country": "Somalia",
+    "name": "Mogadishu"
   },
   {
-    "capital": "Pretoria",
     "coords": {
       "lat": -25.7478676,
       "lon": 28.2292712
     },
-    "country": "South Africa"
+    "country": "South Africa",
+    "name": "Pretoria"
   },
   {
-    "capital": "King Edward Point",
     "coords": {
       "lat": -54.2832502,
       "lon": -36.493735
     },
-    "country": "South Georgia"
+    "country": "South Georgia",
+    "name": "King Edward Point"
   },
   {
-    "capital": "Seoul",
     "coords": {
       "lat": 37.566535,
       "lon": 126.9779692
     },
-    "country": "South Korea"
+    "country": "South Korea",
+    "name": "Seoul"
   },
   {
-    "capital": "Juba",
     "coords": {
       "lat": 4.859363,
       "lon": 31.57125
     },
-    "country": "South Sudan"
+    "country": "South Sudan",
+    "name": "Juba"
   },
   {
-    "capital": "Madrid",
     "coords": {
       "lat": 40.4167754,
       "lon": -3.7037902
     },
-    "country": "Spain"
+    "country": "Spain",
+    "name": "Madrid"
   },
   {
-    "capital": "Colombo",
     "coords": {
       "lat": 6.9270786,
       "lon": 79.861243
     },
-    "country": "Sri Lanka"
+    "country": "Sri Lanka",
+    "name": "Colombo"
   },
   {
-    "capital": "Khartoum",
     "coords": {
       "lat": 15.5006544,
       "lon": 32.5598994
     },
-    "country": "Sudan"
+    "country": "Sudan",
+    "name": "Khartoum"
   },
   {
-    "capital": "Paramaribo",
     "coords": {
       "lat": 5.8520355,
       "lon": -55.2038278
     },
-    "country": "Suriname"
+    "country": "Suriname",
+    "name": "Paramaribo"
   },
   {
-    "capital": "Longyearbyen",
     "coords": {
       "lat": 78.22317220000001,
       "lon": 15.626723
     },
-    "country": "Svalbard and Jan Mayen"
+    "country": "Svalbard and Jan Mayen",
+    "name": "Longyearbyen"
   },
   {
-    "capital": "Lobamba",
     "coords": {
       "lat": -26.400429,
       "lon": 31.1824925
     },
-    "country": "Swaziland"
+    "country": "Swaziland",
+    "name": "Lobamba"
   },
   {
-    "capital": "Stockholm",
     "coords": {
       "lat": 59.32932349999999,
       "lon": 18.0685808
     },
-    "country": "Sweden"
+    "country": "Sweden",
+    "name": "Stockholm"
   },
   {
-    "capital": "Bern",
     "coords": {
       "lat": 46.9479739,
       "lon": 7.4474468
     },
-    "country": "Switzerland"
+    "country": "Switzerland",
+    "name": "Bern"
   },
   {
-    "capital": "Damascus",
     "coords": {
       "lat": 33.5138073,
       "lon": 36.2765279
     },
-    "country": "Syria"
+    "country": "Syria",
+    "name": "Damascus"
   },
   {
-    "capital": "São Tomé",
     "coords": {
       "lat": 0.3301924,
       "lon": 6.733343
     },
-    "country": "São Tomé and Príncipe"
+    "country": "São Tomé and Príncipe",
+    "name": "São Tomé"
   },
   {
-    "capital": "Taipei",
     "coords": {
       "lat": 25.0329694,
       "lon": 121.5654177
     },
-    "country": "Taiwan"
+    "country": "Taiwan",
+    "name": "Taipei"
   },
   {
-    "capital": "Dushanbe",
     "coords": {
       "lat": 38.5597722,
       "lon": 68.7870384
     },
-    "country": "Tajikistan"
+    "country": "Tajikistan",
+    "name": "Dushanbe"
   },
   {
-    "capital": "Dodoma",
     "coords": {
       "lat": -6.162959000000001,
       "lon": 35.7516069
     },
-    "country": "Tanzania"
+    "country": "Tanzania",
+    "name": "Dodoma"
   },
   {
-    "capital": "Bangkok",
     "coords": {
       "lat": 13.7563309,
       "lon": 100.5017651
     },
-    "country": "Thailand"
+    "country": "Thailand",
+    "name": "Bangkok"
   },
   {
-    "capital": "Nassau",
     "coords": {
       "lat": 25.0479835,
       "lon": -77.355413
     },
-    "country": "The Bahamas"
+    "country": "The Bahamas",
+    "name": "Nassau"
   },
   {
-    "capital": "Banjul",
     "coords": {
       "lat": 13.4548761,
       "lon": -16.5790323
     },
-    "country": "The Gambia"
+    "country": "The Gambia",
+    "name": "Banjul"
   },
   {
-    "capital": "Lomé",
     "coords": {
       "lat": 6.1724969,
       "lon": 1.2313618
     },
-    "country": "Togo"
+    "country": "Togo",
+    "name": "Lomé"
   },
   {
-    "capital": "Fakaofo",
     "coords": {
       "lat": -9.380255499999999,
       "lon": -171.2188355
     },
-    "country": "Tokelau"
+    "country": "Tokelau",
+    "name": "Fakaofo"
   },
   {
-    "capital": "Nuku'alofa",
     "coords": {
       "lat": -21.1393418,
       "lon": -175.204947
     },
-    "country": "Tonga"
+    "country": "Tonga",
+    "name": "Nuku'alofa"
   },
   {
-    "capital": "Port of Spain",
     "coords": {
       "lat": 10.6549013,
       "lon": -61.50192559999999
     },
-    "country": "Trinidad and Tobago"
+    "country": "Trinidad and Tobago",
+    "name": "Port of Spain"
   },
   {
-    "capital": "Tunis",
     "coords": {
       "lat": 36.8064948,
       "lon": 10.1815316
     },
-    "country": "Tunisia"
+    "country": "Tunisia",
+    "name": "Tunis"
   },
   {
-    "capital": "Ankara",
     "coords": {
       "lat": 39.9333635,
       "lon": 32.8597419
     },
-    "country": "Turkey"
+    "country": "Turkey",
+    "name": "Ankara"
   },
   {
-    "capital": "Ashgabat",
     "coords": {
       "lat": 37.9600766,
       "lon": 58.32606289999999
     },
-    "country": "Turkmenistan"
+    "country": "Turkmenistan",
+    "name": "Ashgabat"
   },
   {
-    "capital": "Cockburn Town",
     "coords": {
       "lat": 21.4674584,
       "lon": -71.13891009999999
     },
-    "country": "Turks and Caicos Islands"
+    "country": "Turks and Caicos Islands",
+    "name": "Cockburn Town"
   },
   {
-    "capital": "Funafuti",
     "coords": {
       "lat": -8.5200657,
       "lon": 179.198128
     },
-    "country": "Tuvalu"
+    "country": "Tuvalu",
+    "name": "Funafuti"
   },
   {
-    "capital": "Kampala",
     "coords": {
       "lat": 0.3475964,
       "lon": 32.5825197
     },
-    "country": "Uganda"
+    "country": "Uganda",
+    "name": "Kampala"
   },
   {
-    "capital": "Kiev",
     "coords": {
       "lat": 50.4501,
       "lon": 30.5234
     },
-    "country": "Ukraine"
+    "country": "Ukraine",
+    "name": "Kiev"
   },
   {
-    "capital": "Abu Dhabi",
     "coords": {
       "lat": 24.2991738,
       "lon": 54.6972774
     },
-    "country": "United Arab Emirates"
+    "country": "United Arab Emirates",
+    "name": "Abu Dhabi"
   },
   {
-    "capital": "London",
     "coords": {
       "lat": 51.5073509,
       "lon": -0.1277583
     },
-    "country": "United Kingdom"
+    "country": "United Kingdom",
+    "name": "London"
   },
   {
-    "capital": "Washington D.C.",
     "coords": {
       "lat": 38.9071923,
       "lon": -77.0368707
     },
-    "country": "United States"
+    "country": "United States",
+    "name": "Washington D.C."
   },
   {
-    "capital": "",
     "coords": {
       "lat": 19.2823192,
       "lon": 166.647047
     },
-    "country": "United States Minor Outlying Islands"
+    "country": "United States Minor Outlying Islands",
+    "name": ""
   },
   {
-    "capital": "Montevideo",
     "coords": {
       "lat": -34.9011127,
       "lon": -56.16453139999999
     },
-    "country": "Uruguay"
+    "country": "Uruguay",
+    "name": "Montevideo"
   },
   {
-    "capital": "Tashkent",
     "coords": {
       "lat": 41.2994958,
       "lon": 69.2400734
     },
-    "country": "Uzbekistan"
+    "country": "Uzbekistan",
+    "name": "Tashkent"
   },
   {
-    "capital": "Port Vila",
     "coords": {
       "lat": -17.7332512,
       "lon": 168.3273245
     },
-    "country": "Vanuatu"
+    "country": "Vanuatu",
+    "name": "Port Vila"
   },
   {
-    "capital": "Caracas",
     "coords": {
       "lat": 10.4805937,
       "lon": -66.90360629999999
     },
-    "country": "Venezuela"
+    "country": "Venezuela",
+    "name": "Caracas"
   },
   {
-    "capital": "Hanoi",
     "coords": {
       "lat": 21.0277644,
       "lon": 105.8341598
     },
-    "country": "Vietnam"
+    "country": "Vietnam",
+    "name": "Hanoi"
   },
   {
-    "capital": "Mata-Utu",
     "coords": {
       "lat": -13.2825091,
       "lon": -176.1764475
     },
-    "country": "Wallis and Futuna"
+    "country": "Wallis and Futuna",
+    "name": "Mata-Utu"
   },
   {
-    "capital": "El Aaiún",
     "coords": {
       "lat": 26.7599542,
       "lon": -12.989615
     },
-    "country": "Western Sahara"
+    "country": "Western Sahara",
+    "name": "El Aaiún"
   },
   {
-    "capital": "Sana'a",
     "coords": {
       "lat": 15.3694451,
       "lon": 44.1910066
     },
-    "country": "Yemen"
+    "country": "Yemen",
+    "name": "Sana'a"
   },
   {
-    "capital": "Lusaka",
     "coords": {
       "lat": -15.3875259,
       "lon": 28.3228165
     },
-    "country": "Zambia"
+    "country": "Zambia",
+    "name": "Lusaka"
   },
   {
-    "capital": "Harare",
     "coords": {
       "lat": -17.8251657,
       "lon": 31.03351
     },
-    "country": "Zimbabwe"
+    "country": "Zimbabwe",
+    "name": "Harare"
   },
   {
-    "capital": "Mariehamn",
     "coords": {
       "lat": 60.0970945,
       "lon": 19.9348339
     },
-    "country": "Åland Islands"
+    "country": "Åland Islands",
+    "name": "Mariehamn"
   }
 ]

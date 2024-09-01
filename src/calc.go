@@ -1,6 +1,7 @@
 package main
 
 import (
+	"astrocalc/src/location"
 	"strings"
 	"time"
 
@@ -39,33 +40,33 @@ func newDataset() (ds tResults) {
 	return
 }
 
-func calc(now time.Time, lat float64, lon float64, name string) (res tResults) {
+func calc(now time.Time, loc location.Location) (res tResults) {
 	res = newDataset()
 
 	res.Time = now
 	res.Location = make(map[string]interface{})
-	res.Location["lat"] = lat
-	res.Location["lon"] = lon
-	res.Location["name"] = name
+	res.Location["lat"] = loc.Coords.Lat
+	res.Location["lon"] = loc.Coords.Lon
+	res.Location["name"] = loc.Name
 
 	// sunlight times
-	arr := suncalc.GetTimes(now, lat, lon)
+	arr := suncalc.GetTimes(now, loc.Coords.Lat, loc.Coords.Lon)
 	for key, val := range arr {
 		res.Sun.Light[toSnakeCase(string(key))] = val.Value
 	}
 
-	a := suncalc.GetPosition(now, lat, lon)
+	a := suncalc.GetPosition(now, loc.Coords.Lat, loc.Coords.Lon)
 	res.Sun.Position = make(map[string]float64)
 	res.Sun.Position["altitude"] = a.Altitude
 	res.Sun.Position["azimuth"] = a.Azimuth
 
-	d := suncalc.GetMoonTimes(now, lat, lon, false)
+	d := suncalc.GetMoonTimes(now, loc.Coords.Lat, loc.Coords.Lon, false)
 	res.Moon.Light["rise"] = d.Rise
 	res.Moon.Light["set"] = d.Set
 	res.Moon.Light["always_up"] = d.AlwaysUp
 	res.Moon.Light["always_down"] = d.AlwaysDown
 
-	b := suncalc.GetMoonPosition(now, lat, lon)
+	b := suncalc.GetMoonPosition(now, loc.Coords.Lat, loc.Coords.Lon)
 	res.Moon.Position["altitude"] = b.Altitude
 	res.Moon.Position["azimuth"] = b.Azimuth
 	res.Moon.Position["distance"] = b.Distance

@@ -25,8 +25,7 @@ func main() {
 			displayErr()
 		} else {
 			now := time.Now()
-			t := calc(now, loc.Coords.Lat, loc.Coords.Lon, loc.Name)
-			t.Location["name"] = loc.Name
+			t := calc(now, loc)
 
 			out := stringToJSON(t)
 
