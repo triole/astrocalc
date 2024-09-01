@@ -33,7 +33,7 @@ func readJSON(content string) (capitals tCapitals) {
 
 func (cap tCapital) GetLocation(s string) (loc location.Location) {
 	for _, cap := range cap.Capitals {
-		if strings.EqualFold(s, cap.Capital) {
+		if strings.EqualFold(s, cap.Name) {
 			loc = cap
 			break
 		}

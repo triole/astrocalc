@@ -21,12 +21,12 @@ func main() {
 	} else {
 		// try to find capital, if fails assume to be coords
 		loc := getLocation(CLI.Location)
-		if loc.Capital == "" {
+		if loc.Name == "" {
 			displayErr()
 		} else {
 			now := time.Now()
-			t := calc(now, loc.Coords.Lat, loc.Coords.Lon)
-			t.Location["name"] = loc.Capital
+			t := calc(now, loc.Coords.Lat, loc.Coords.Lon, loc.Name)
+			t.Location["name"] = loc.Name
 
 			out := stringToJSON(t)
 
@@ -64,4 +64,8 @@ func displayErr() {
 	fmt.Println("use either capital's name or lat lon coordinates")
 	fmt.Println("example: astrocalc berlin, astrocalc 55.2 22.1")
 	os.Exit(1)
+}
+
+func ts() string {
+	return time.Now().Format("[2006-01-02 15:04:05]")
 }

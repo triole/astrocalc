@@ -10,7 +10,7 @@ import (
 )
 
 func runServer() {
-	fmt.Printf("listening at %d", CLI.Port)
+	fmt.Printf("%s listening at %d\n", ts(), CLI.Port)
 	http.HandleFunc("/", returnHandler)
 	err := http.ListenAndServe(":"+strconv.Itoa(CLI.Port), nil)
 	if err != nil {
@@ -39,7 +39,8 @@ func returnHandler(w http.ResponseWriter, r *http.Request) {
 			loc = getLocation([]string{paramLat, paramLon})
 		}
 		now := time.Now()
-		data := calc(now, loc.Coords.Lat, loc.Coords.Lon)
+		data := calc(now, loc.Coords.Lat, loc.Coords.Lon, loc.Name)
+		fmt.Printf("%s respond for location %+v\n", ts(), data.Location)
 		w.Header().Set("Content-Type", "application/json")
 		w.WriteHeader(http.StatusCreated)
 		json.NewEncoder(w).Encode(data)

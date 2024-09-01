@@ -1,7 +1,7 @@
 package location
 
 type Location struct {
-	Capital string
+	Name    string
 	Country string
 	Coords  Coords
 }

@@ -39,13 +39,14 @@ func newDataset() (ds tResults) {
 	return
 }
 
-func calc(now time.Time, lat float64, lon float64) (res tResults) {
+func calc(now time.Time, lat float64, lon float64, name string) (res tResults) {
 	res = newDataset()
 
 	res.Time = now
 	res.Location = make(map[string]interface{})
 	res.Location["lat"] = lat
 	res.Location["lon"] = lon
+	res.Location["name"] = name
 
 	// sunlight times
 	arr := suncalc.GetTimes(now, lat, lon)
